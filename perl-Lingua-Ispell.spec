@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Lingua
-%define	pnam	Ispell
+%define		pdir	Lingua
+%define		pnam	Ispell
 Summary:	Lingua::Ispell Perl module
 Summary(pl):	Modu³ Perla Lingua::Ispell
 Name:		perl-Lingua-Ispell
