@@ -10,7 +10,8 @@ Summary(pl):	Modu³ Perla Lingua::Ispell
 Name:		perl-Lingua-Ispell
 Version:	0.07
 Release:	2
-License:	GPL
+# same as perl
+License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	8f6a364daccf28a5c208fa1a3df83daa
