@@ -41,7 +41,8 @@ Lingua::Ispell - modu³ Perla obudowuj±cy dostêp do programu Ispell.
 %install
 rm -rf $RPM_BUILD_ROOT
 
-%{__make} install DESTDIR=$RPM_BUILD_ROOT
+%{__make} install \
+	DESTDIR=$RPM_BUILD_ROOT
 
 %clean
 rm -rf $RPM_BUILD_ROOT
