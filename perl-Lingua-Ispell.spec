@@ -9,7 +9,7 @@ Summary:	Lingua::Ispell Perl module
 Summary(pl):	Modu³ Perla Lingua::Ispell
 Name:		perl-Lingua-Ispell
 Version:	0.07
-Release:	2
+Release:	3
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
