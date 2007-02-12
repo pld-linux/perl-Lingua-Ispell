@@ -6,7 +6,7 @@
 %define		pdir	Lingua
 %define		pnam	Ispell
 Summary:	Lingua::Ispell Perl module
-Summary(pl):	Modu³ Perla Lingua::Ispell
+Summary(pl.UTF-8):   ModuÅ‚ Perla Lingua::Ispell
 Name:		perl-Lingua-Ispell
 Version:	0.07
 Release:	3
@@ -25,8 +25,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Lingua::Ispell - Perl module encapsulating access to the Ispell
 program.
 
-%description -l pl
-Lingua::Ispell - modu³ Perla obudowuj±cy dostêp do programu Ispell.
+%description -l pl.UTF-8
+Lingua::Ispell - moduÅ‚ Perla obudowujÄ…cy dostÄ™p do programu Ispell.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
