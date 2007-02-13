@@ -6,7 +6,7 @@
 %define		pdir	Lingua
 %define		pnam	Ispell
 Summary:	Lingua::Ispell Perl module
-Summary(pl.UTF-8):   Moduł Perla Lingua::Ispell
+Summary(pl.UTF-8):	Moduł Perla Lingua::Ispell
 Name:		perl-Lingua-Ispell
 Version:	0.07
 Release:	3
