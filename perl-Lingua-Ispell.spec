@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	Lingua
 %define		pnam	Ispell
+%include	/usr/lib/rpm/macros.perl
 Summary:	Lingua::Ispell Perl module
 Summary(pl.UTF-8):	Moduł Perla Lingua::Ispell
 Name:		perl-Lingua-Ispell
@@ -15,10 +15,11 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	8f6a364daccf28a5c208fa1a3df83daa
+URL:		http://search.cpan.org/dist/Lingua-Ispell/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
-BuildArch:	noarch
 Requires:	ispell >= 3.1.20-35
+BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
