@@ -4,7 +4,6 @@
 
 %define		pdir	Lingua
 %define		pnam	Ispell
-%include	/usr/lib/rpm/macros.perl
 Summary:	Lingua::Ispell Perl module
 Summary(pl.UTF-8):	Moduł Perla Lingua::Ispell
 Name:		perl-Lingua-Ispell
